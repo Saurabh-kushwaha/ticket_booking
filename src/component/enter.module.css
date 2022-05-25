@@ -1,0 +1,28 @@
+.btn_show{
+    display: flex;
+    justify-content: center;
+}
+.btn_show button{
+    margin: 2px;
+    padding: 5px;
+    width: 50px;
+}
+.bg_box{
+   border: 1px solid black;
+   padding: 20px;
+   width: 100px;
+}
+.border_box_input{
+   border: 10px solid blue;
+   width: 300px;
+   padding: 50px;
+   margin: auto;
+   margin-top: 30px;
+}
+.border_box_input p{
+    border: 1px solid red;
+    color: red;
+    width: 130px;
+    margin-left: 200px;
+    margin-top: -30px;
+}
