@@ -1,5 +1,4 @@
 import './App.css';
-
 import Ticket from './component/Ticket';
 
 function App() {
@@ -9,5 +8,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

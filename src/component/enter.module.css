@@ -9,20 +9,45 @@
 }
 .bg_box{
    border: 1px solid black;
-   padding: 20px;
-   width: 100px;
+   width: 120px;
+   padding: 10px;
+   box-sizing: border-box;
 }
 .border_box_input{
-   border: 10px solid blue;
-   width: 300px;
+   border: 50px solid blue;
+   width: 150px;
    padding: 50px;
    margin: auto;
    margin-top: 30px;
+   background-color: white;
 }
 .border_box_input p{
-    border: 1px solid red;
     color: red;
     width: 130px;
-    margin-left: 200px;
-    margin-top: -30px;
+    padding: 5px;
+    font-weight: bold;
+    margin: 2px;
+}
+.ticketNoShow{
+    border-radius: 100px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+.ticket_id{
+    border: 1px solid blue;
+    color: blue;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-left: -10px;
+    width: 80px;
+}
+.bg_box div{
+    color: red;
+}
+.display_button_1{
+    display: flex;
+    justify-content: space-between; 
+    margin-right: -13px;
+    margin-top: -13px;
 }
